@@ -8,7 +8,7 @@
 <h1>Test page</h1>
 
 <form role="form" action="/do/helloWorld" method="post">
-    <button value="submit" type="submit" class="btn btn-primary">Go to Hello World Page...</button>
+    <button value="submit" type="submit" class="btn btn-primary">Go to Hello World Page..</button>
 </form>
 </body>
 </html>

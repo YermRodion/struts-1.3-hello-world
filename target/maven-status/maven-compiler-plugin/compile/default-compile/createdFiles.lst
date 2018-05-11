@@ -1,2 +1,4 @@
+com\percyvega\form\TestForm.class
 com\percyvega\action\HelloWorldAction.class
+com\percyvega\action\TestAction.class
 com\percyvega\form\HelloWorldForm.class

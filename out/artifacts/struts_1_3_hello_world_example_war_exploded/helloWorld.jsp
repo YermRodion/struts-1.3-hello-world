@@ -6,5 +6,9 @@
 </head>
 <body>
 <h1><bean:write name="helloWorldForm" property="greeting" /></h1>
+
+<form role="form" action="/do/testAction" method="post">
+    <button value="submit" type="submit" class="btn btn-primary">Go to the TestPage</button>
+</form>
 </body>
 </html>

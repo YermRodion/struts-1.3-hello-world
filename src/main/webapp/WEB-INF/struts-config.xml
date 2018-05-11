@@ -8,11 +8,16 @@
 
     <form-beans>
         <form-bean name="helloWorldForm" type="com.percyvega.form.HelloWorldForm" />
+        <form-bean name="testForm" type="com.percyvega.form.TestForm" />
     </form-beans>
 
     <action-mappings>
         <action path="/helloWorld" type="com.percyvega.action.HelloWorldAction" name="helloWorldForm">
             <forward name="success" path="/helloWorld.jsp" />
+        </action>
+
+        <action path="/testAction" type="com.percyvega.action.TestAction" name="testForm">
+            <forward name="test" path="/testPage.jsp" />
         </action>
     </action-mappings>
 
